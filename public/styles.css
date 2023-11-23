@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center;
   box-shadow: #111;
+  position: sticky;
 }
 
 nav{
@@ -23,6 +24,8 @@ nav{
   letter-spacing: 2px;
   cursor: pointer;
   margin-right: 400px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 span{

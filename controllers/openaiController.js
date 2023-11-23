@@ -8,10 +8,10 @@ const generateMeta = async (req, res) => {
     messages: [
       {
         role: 'user',
-        content: `${title}`
+        content: `Tte numesti Ion si esti un Consiler Guvernamental. Raspunzi cu informatii scurte si in raspunsurile tale mentionezi ca informatiile oficiale se iau de pe site urile.gov sau de la institutiile abilitate. ${title}`
       }
     ],
-    max_tokens: 100
+    max_tokens: 300
   })
 
   console.log(description.data.choices[0].message)

@@ -4,6 +4,7 @@
   background-color: #222222;
   background-size: cover;
   background-position: center;
+  box-shadow: #111;
 }
 
 nav{
@@ -25,7 +26,7 @@ nav{
 }
 
 span{
-  color: rgb(185, 94, 94);
+  color: #03A9F4;
 }
 
 nav ul li{
@@ -44,11 +45,12 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: rgb(185, 94, 94);
+  color: #03A9F4;
   transition: .4s;
 }
 
 .content{
+  color: #222222;
   position: absolute;
   top: 50%;
   left: 8%;
@@ -83,7 +85,7 @@ h4{
   display: inline-block;
   width: 100%;
   padding: 14px 130px 14px 15px;
-  border: 2px solid rgb(185, 94, 94);
+  border: 2px solid #03A9F4;
   outline: none;
   border-radius: 30px;
 }
@@ -136,7 +138,7 @@ body {
     margin: 20px auto;
   }
   button {
-    background: rgb(185, 94, 94);
+    background: #03A9F4;
     
     color: #fff;
     border-radius: 4px;
@@ -146,3 +148,35 @@ body {
     padding: 8px 24px;
     top: 0;
   }
+
+ .second{
+    background-color: #222222;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ .ai2 input{
+  width: 100vh;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #03A9F4;
+  outline: none;
+  border-radius: 10px;
+}
+
+.cauta{
+  color: white;
+  position: static;
+  justify-content: center !important;
+    align-items: center !important;
+    display: flex Im !important;
+}
+
+.search{
+  width: 100vh;
+  height: 50vh;
+  position: relative;
+  justify-content: center !important;
+    align-items: center !important;
+    display: flex Im !important;
+}

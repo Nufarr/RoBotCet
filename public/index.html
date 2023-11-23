@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Meta Generator</title>
+  <title>ION</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -24,18 +24,38 @@
       <h1>Noi suntem ION, ION suntem NOI</h1>
       <h3>Intreaba-ma ceva</h3>
       <form class="ai">
-      <h2>Generate Meta Data</h2>
-      <label for="title">
-        <!-- <span>Video Title:</span> -->
-        <input type="text" name="title">
-        <button>generate meta data</button>
-      </label>
-    </form>
+        <h2>Generate Meta Data</h2>
+        <label for="title">
+          <!-- <span>Video Title:</span> -->
+          <input type="text" name="title">
+          <button>generate meta data</button>
+        </label>
+      </form>
     <div class="description">
       <p>Your Video Description...</p>
     </div>
     </div>
 
   <script src="/index.js"></script>
+
+  <div class="second">
+  <h1>Cauta resurse</h1>
+</div>
+  <div class="second">
+
+    
+    <div class="ai2">
+      <input placeholder="Search here" id="searchWidgetTrigger" />
+  
+        <gen-search-widget
+          configId="d34c80d3-98f0-46c0-81ae-7f6c78e7beb4"
+          triggerId="searchWidgetTrigger"
+          class="search">
+        </gen-search-widget>
+  
+        <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+      </div>
+
+  </div>
 </body>
 </html>

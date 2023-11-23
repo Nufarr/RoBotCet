@@ -220,3 +220,35 @@ body {
   .butoane{
     margin-top: 10px;
   }
+
+  .second{
+    background-color: #222222;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ .ai2 input{
+  width: 100vh;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #03A9F4;
+  outline: none;
+  border-radius: 10px;
+}
+
+.cauta{
+  color: white;
+  position: static;
+  justify-content: center !important;
+    align-items: center !important;
+    display: flex Im !important;
+}
+
+.search{
+  width: 100vh;
+  height: 50vh;
+  position: relative;
+  justify-content: center !important;
+    align-items: center !important;
+    display: flex Im !important;
+}

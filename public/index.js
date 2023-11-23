@@ -1,11 +1,8 @@
 // forms
-const metaForm = document.querySelector('.meta-form')
-const imageForm = document.querySelector('.image-form')
+const metaForm = document.querySelector('.ai')
 
 // output elements
 const description = document.querySelector('.description p')
-const tags = document.querySelector('.tags p')
-const thumbnail = document.querySelector('.thumbnail img') 
 
 // description and tags
 metaForm.addEventListener('submit', async (e) => {
@@ -21,19 +18,4 @@ metaForm.addEventListener('submit', async (e) => {
   console.log(data)
 
   description.textContent = data.description.content
-  tags.textContent = data.tags.content
-})
-
-// image/thumbnail
-imageForm.addEventListener('submit', async (e) => {
-  e.preventDefault()
-
-  const res = await fetch('/openai/image', {
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({prompt: imageForm.prompt.value}),
-    method: 'POST'
-  })
-  const data = await res.json()
-
-  thumbnail.setAttribute('src', data.url)
 })

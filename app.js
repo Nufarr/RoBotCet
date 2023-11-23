@@ -1,5 +1,5 @@
 const express = require('express')
-const { generateMeta, generateImage } = require('./controllers/openaiController')
+const { generateMeta } = require('./controllers/openaiController')
 
 // app setup
 const app = express()
@@ -11,4 +11,3 @@ app.use(express.static('public'))
 
 // routes
 app.post('/openai/meta', generateMeta)
-app.post('/openai/image', generateImage)

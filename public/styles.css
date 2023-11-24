@@ -138,6 +138,7 @@ body {
     background: #eee;
   }
   p {
+    color: var(--secondary-color);
     margin: 0;
     padding: 10px;
   }
@@ -226,6 +227,11 @@ body {
     color: var(--secondary-color);
   }
 */
+.contact input{
+  border: 2px solid #03A9F4;
+  outline: none;
+  border-radius: 10px;
+}
   .description{
     background: #fff;
     padding: 20px;

@@ -52,27 +52,36 @@ nav ul li a:hover{
   transition: .4s;
 }
 
+.centerstuff{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .content{
+  width: 100%;
   color: var(--primary-color);
   position: absolute;
-  top: 50%;
-  left: 8%;
+  top: 60%;
   transform: translateY(-50%);
 }
 
 h1{
+  justify-self: center;
+  display: flex;
   color: var(--secondary-color);
-  margin: 10px 0px 20px;
-  font-size:75px;
+  margin: 10px 0px 50px;
+  font-size:70px;
 }
 
 h3{
   color: var(--secondary-color);
   font-size: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 h4{
+  position: absolute;
   color: #03A9F4;
   letter-spacing:  2px;
   font-size: 20px;
@@ -142,6 +151,7 @@ body {
   }
 
   button {
+    margin: 2px;
     background:#03A9F4;
     font-size: 17px;
     color: #fff;
@@ -217,12 +227,17 @@ body {
   .description{
     background: #fff;
     padding: 20px;
-    width: 535px;
+    width: 40%;
+    height: 20vh;
     border: 2px solid #03A9F4;
+    border-radius: 15px;
   }
 
   .butoane{
     margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 
   .second{
@@ -231,6 +246,10 @@ body {
     align-items: center;
     display: flex;
  }
+
+.second h1{
+  margin-top: 20vh;
+}
 
  .ai2 input{
   width: 100vh;

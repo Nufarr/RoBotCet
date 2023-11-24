@@ -4,7 +4,6 @@
   background-color: var(--primary-color);
   background-size: cover;
   background-position: center;
-  box-shadow: #111;
   position: sticky;
 }
 
@@ -67,6 +66,7 @@ nav ul li a:hover{
 }
 
 h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   justify-self: center;
   display: flex;
   color: var(--secondary-color);
@@ -75,12 +75,14 @@ h1{
 }
 
 h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: var(--secondary-color);
   font-size: 25px;
   margin-bottom: 20px;
 }
 
 h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   color: #03A9F4;
   letter-spacing:  2px;

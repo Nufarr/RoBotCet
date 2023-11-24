@@ -1,7 +1,7 @@
 .navbar{
   height: 100vh;
   width: 100%;
-  background-color: #222222;
+  background-color: var(--primary-color);
   background-size: cover;
   background-position: center;
   box-shadow: #111;
@@ -18,7 +18,7 @@ nav{
 }
 
 .logo{
-  color: white;
+  color: var(--secondary-color);
   font-size: 60px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 2px;
@@ -39,7 +39,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: white;
+  color: var(--secondary-color);
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -53,7 +53,7 @@ nav ul li a:hover{
 }
 
 .content{
-  color: #222222;
+  color: var(--primary-color);
   position: absolute;
   top: 50%;
   left: 8%;
@@ -61,19 +61,19 @@ nav ul li a:hover{
 }
 
 h1{
-  color: white;
+  color: var(--secondary-color);
   margin: 10px 0px 20px;
   font-size:75px;
 }
 
 h3{
-  color: white;
+  color: var(--secondary-color);
   font-size: 25px;
   margin-bottom: 50px;
 }
 
 h4{
-  color: #fcfc;
+  color: #03A9F4;
   letter-spacing:  2px;
   font-size: 20px;
 }
@@ -89,7 +89,6 @@ h4{
   width: 100%;
   padding: 14px 130px 14px 15px;
   border: 2px solid #03A9F4;
-  outline: none;
   border-radius: 30px;
 }
 
@@ -108,14 +107,14 @@ h4{
   font-size: 25px;
   font-weight: bolder;
 
-  color: white;
+  color: var(--secondary-color);
 }
 
 .navText {
   font-size: 20px !important;
   font-weight: bold !important;
   font-style: normal !important;
-  color: white !important;
+  color: var(--secondary-color) !important;
 }
 
 .navText:hover {
@@ -133,8 +132,9 @@ body {
   }
 
   input {
-    background: #eee;
-    border: 0;
+    background: white;
+    border: 3px;
+    border-color: #03A9F4;
     padding: 10px;
     border-radius: 4px;
     width: 300px;
@@ -142,12 +142,13 @@ body {
   }
 
   button {
-    background:rgb(185, 94, 94);
+    background:#03A9F4;
+    font-size: 17px;
     color: #fff;
     border-radius: 4px;
     border: 0;
-    border-bottom: 5px solid #8a2323;
-    border-left: 1px solid #902121;
+    border-bottom: 5px solid #0073a9;
+    border-left: 1px solid #0487c4;
     padding: 8px 24px;
     cursor: pointer;
     position: relative;
@@ -186,7 +187,7 @@ body {
 }
 
 .cauta{
-  color: white;
+  color: var(--secondary-color);
   position: static;
   justify-content: center !important;
     align-items: center !important;
@@ -210,14 +211,14 @@ body {
   
   button:hover {
     background-color: #04AA6D; 
-    color: white;
+    color: var(--secondary-color);
   }
 */
   .description{
     background: #fff;
     padding: 20px;
     width: 535px;
-    border: 2px dashed #f2f2f2;
+    border: 2px solid #03A9F4;
   }
 
   .butoane{
@@ -225,7 +226,7 @@ body {
   }
 
   .second{
-    background-color: #222222;
+    background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -240,7 +241,7 @@ body {
 }
 
 .cauta{
-  color: white;
+  color: var(--secondary-color);
   position: static;
   justify-content: center !important;
     align-items: center !important;
@@ -254,4 +255,21 @@ body {
   justify-content: center !important;
     align-items: center !important;
     display: flex Im !important;
+}
+
+#icon{
+  width: 30px;
+  cursor: pointer;
+  padding-left:70px;
+}
+
+:root{
+  --primary-color: #ddedff;
+  --secondary-color: black;
+  
+}
+
+.dark-theme{
+  --primary-color: #222222;
+  --secondary-color: white;
 }
